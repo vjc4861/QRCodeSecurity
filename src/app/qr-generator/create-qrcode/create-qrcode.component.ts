@@ -33,7 +33,6 @@ export class CreateQrcodeComponent implements OnInit {
   isGenerated: boolean = true;
   // uuidNData = `${this.qrData}`;
   // qrData2 = this.uuidNData.split(',')[1];
-  createdBase64Image: string = "";
 
   // uuid!: string;
   
@@ -63,33 +62,21 @@ export class CreateQrcodeComponent implements OnInit {
   //   this.uuid = uuidv4();
   //   return `${this.uuid},${this.qrData}`;
   // }
-  onQRCodeURL(event: SafeUrl): void {
-    if (event) {
-      this.createdBase64Image = event.toString().replace("data:image/png;base64,", "");
-      this.imageQrService.changeQrImage(this.createdBase64Image); // Add this line
-    }
-  }
+  
 
   storeData(form: NgForm){
     this.loaderCtrl.create({
       message: 'Storing data.....'
     }).then(loadingEl => {
       loadingEl.present();
-      // Generate the base64 image string
-      // const createdBase64Image = this.qrCode && this.qrCode.qrcElement ? this.getBase64(this.qrCode.qrcElement.nativeElement) : '';
-      // const createdBase64Image = this.qrCode ? this.qrCode : "";
-      console.log("Base64 Image: ", this.createdBase64Image);
-      this.imageQrService.changeQrImage(this.createdBase64Image);
-      
       this.db.list('qrcodes').push({
         qruuid: this.uuid,
         title: this.qrTitle,
         data: this.qrData,
         width: this.width,
         errorCorrectionLevel: this.errorCorrectionLevel,
-        base64Image: this.createdBase64Image
       }).then(() => {
-        const newQrCode = new qrCode_model(this.uuid, Math.random().toString(), this.qrTitle, this.qrData, this.width, this.errorCorrectionLevel, this.qrgeneratorService.authService.userId, this.createdBase64Image);
+        const newQrCode = new qrCode_model(this.uuid, Math.random().toString(), this.qrTitle, this.qrData, this.width, this.errorCorrectionLevel, this.qrgeneratorService.authService.userId);
         this.qrgeneratorService.addingQrCode(newQrCode);
         loadingEl.dismiss();
         form.reset();

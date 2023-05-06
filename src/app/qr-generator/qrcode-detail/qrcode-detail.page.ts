@@ -19,16 +19,10 @@ export class QrcodeDetailPage implements OnInit, OnDestroy {
 
   qrcode?: qrCode_model;
   private qrSub!: Subscription;
-  base64Image: string | null = null;
 
 
   constructor( private imageQrService: ImageServiceService ,private route: ActivatedRoute, private navCtrl: NavController, private qrcodeService: QrGeneratorService) { }
 
-  ionViewWillEnter(){
-    this.imageQrService.currentQrImage.subscribe(image => {
-      this.base64Image = image;
-    });
-  }
 
 
 

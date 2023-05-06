@@ -51,6 +51,6 @@
     <!-- <ion-button type="submit" [disabled]="!form.valid">Generate QR Code</ion-button> -->
     <!-- <ion-button type="button" (click)="storeData(form)" [disabled]="!isGenerated">Store Data</ion-button> -->
   </form>
-  <qrcode  *ngIf="form.valid" (qrCodeURL)="onQRCodeURL($event)" [qrdata]="qrData" [width]="width" [errorCorrectionLevel]="errorCorrectionLevel"></qrcode>
+  <qrcode  *ngIf="form.valid"  [qrdata]="qrData" [width]="width" [errorCorrectionLevel]="errorCorrectionLevel"></qrcode>
   
 </ion-content>
