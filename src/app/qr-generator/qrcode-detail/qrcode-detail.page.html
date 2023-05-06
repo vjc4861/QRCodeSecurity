@@ -21,9 +21,10 @@
             <p>QR Code Data : {{ qrcode?.qrData }}</p>
             <p>Width : {{ qrcode?.width }}</p>
             <p>Error Correction Level : {{ qrcode?.errorCorrectionLevel }}</p>
+            <qrcode [qrdata]="qrcode?.qrData ?? ''" [width]="qrcode?.width ?? 256" [errorCorrectionLevel]="qrcode?.errorCorrectionLevel ?? 'M'"></qrcode>
             <!-- <img *ngIf="qrcode && qrcode.base64Image" [src]="qrcode.base64Image" alt="QR Code Image"> -->
             <!-- <img *ngIf="base64Image" [src]="base64Image" /> -->
-            <img *ngIf="base64Image" [src]="'data:image/png;base64,' + base64Image" />
+            <!-- <img *ngIf="base64Image" [src]="'data:image/png;base64,' + base64Image" /> -->
             <!-- <img [src]="qrCodeBase64String" alt="QR Code"> -->
           </ion-card-content>
         </ion-card>
