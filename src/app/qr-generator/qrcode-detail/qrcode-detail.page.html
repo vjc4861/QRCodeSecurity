@@ -1,0 +1,33 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/qr-generator"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ qrcode?.qrTitle }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" size-md="6" offset-md="3" class="ion-text-center">
+
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>{{ qrcode?.qrTitle }}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>QR Code Data : {{ qrcode?.qrData }}</p>
+            <p>Width : {{ qrcode?.width }}</p>
+            <p>Error Correction Level : {{ qrcode?.errorCorrectionLevel }}</p>
+            <!-- <img *ngIf="qrcode && qrcode.base64Image" [src]="qrcode.base64Image" alt="QR Code Image"> -->
+            <!-- <img *ngIf="base64Image" [src]="base64Image" /> -->
+            <img *ngIf="base64Image" [src]="'data:image/png;base64,' + base64Image" />
+            <!-- <img [src]="qrCodeBase64String" alt="QR Code"> -->
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

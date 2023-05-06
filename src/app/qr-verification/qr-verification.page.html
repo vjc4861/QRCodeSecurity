@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>qr-verification</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <zxing-scanner [formats]="[qrcodeFormat]" [torch]="true" (scanSuccess)="onScanSuccess($event)"></zxing-scanner>
+
+
+</ion-content>
