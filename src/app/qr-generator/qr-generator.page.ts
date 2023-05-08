@@ -89,7 +89,7 @@ export class QrGeneratorPage implements OnInit, OnDestroy {
       this.qrGeneratorService.cancelQrcode(qrcodeId).subscribe(() => {
         this.loadedQr = this.loadedQr.filter(qr => qr.qruuid !== qrcodeId);
         loadingEl.dismiss().then(() => {
-          this.fetchQRCodes();
+          // this.fetchQRCodes();
         });
       });
     });
