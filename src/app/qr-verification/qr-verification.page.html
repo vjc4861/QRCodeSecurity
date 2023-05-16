@@ -5,7 +5,15 @@
 </ion-header>
 
 <ion-content>
-  <zxing-scanner [formats]="[qrcodeFormat]" [torch]="true" (scanSuccess)="onScanSuccess($event)"></zxing-scanner>
-
-
+  <div *ngIf="isCameraVisible" class="scanner-container">
+    <zxing-scanner
+      class="zxing-scanner"
+      #scanner
+      [formats]="[qrcodeFormat]"
+      [torch]="true"
+      (scanSuccess)="onScanSuccess($event)"
+    ></zxing-scanner>
+    <div class="scanner-mask"></div>
+    <div class="scanner-overlay"></div>
+  </div>
 </ion-content>

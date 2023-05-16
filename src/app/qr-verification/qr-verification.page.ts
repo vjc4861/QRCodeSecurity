@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit, ViewChild } from '@angular/core';
 import { QrGeneratorService } from '../qr-generator/qr-generator.service';
 import { BarcodeFormat } from '@zxing/library';
 import { AlertController } from '@ionic/angular';
 import { AngularFireDatabase } from '@angular/fire/compat/database';
+import { ZXingScannerComponent } from '@zxing/ngx-scanner';
 
 
 @Component({
@@ -12,15 +13,38 @@ import { AngularFireDatabase } from '@angular/fire/compat/database';
 })
 export class QrVerificationPage implements OnInit {
 
-  constructor(private qrGeneratorService: QrGeneratorService, private alertController: AlertController, private db: AngularFireDatabase) { }
+  constructor(private changeDetector: ChangeDetectorRef ,private qrGeneratorService: QrGeneratorService, private alertController: AlertController, private db: AngularFireDatabase) { }
+
+  @ViewChild('scanner', { static: false }) scanner!: ZXingScannerComponent;
+
 
   qrcodeFormat = BarcodeFormat.QR_CODE;
+  isCameraVisible = true;
 
   ngOnInit() {
   }
 
+
+  // resumeScan(): void {
+  //   this.scanner.scanStart // Starts the scanner again.
+  // }
+
+  async continueScanning(): Promise<void> {
+    this.isCameraVisible = false;
+    // Use setTimeout to allow Angular to update the template properly
+    await Promise.resolve().then(() => {
+      this.isCameraVisible = true;
+      this.scanner.reset();
+      this.scanner.scanStart();
+    });
+  }
+  
+  
+
   onScanSuccess(data: any) {
     // Search for the QR code content in your database
+    // this.scanner.codeReader.reset();
+    this.scanner.reset();
     this.db.database.ref('qrcodes').orderByChild('data').equalTo(data).once('value', async snapshot => {
       let alertHeader = '';
       let alertMessage = '';
@@ -39,7 +63,14 @@ export class QrVerificationPage implements OnInit {
       const alert = await this.alertController.create({
         header: alertHeader,
         message: alertMessage,
-        buttons: ['OK']
+        buttons: [{
+          text: 'OK',
+          handler: async () => {
+            await alert.dismiss();
+            this.continueScanning();
+            this.changeDetector.detectChanges();
+          }
+        }]
       });
   
       await alert.present();
