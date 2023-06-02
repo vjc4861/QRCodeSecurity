@@ -1,0 +1,423 @@
+--------- beginning of main
+--------- beginning of system
+2023-06-02 16:46:42.821  6026-6026  studio.deploy           installer                            E  Could not get package user id: /system/bin/run-as: unknown package: com.qrsec.app
+2023-06-02 16:46:42.839  6026-6026  studio.deploy           installer                            E  Could not find apks for this package: com.qrsec.app
+2023-06-02 16:46:45.799  6071-6071  com.qrsec.app           com.qrsec.app                        I  Late-enabling -Xcheck:jni
+2023-06-02 16:46:46.152  6071-6071  com.qrsec.app           com.qrsec.app                        W  Unexpected CPU variant for X86 using defaults: x86
+2023-06-02 16:46:47.326  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
+2023-06-02 16:46:47.327  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
+2023-06-02 16:46:47.601  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+2023-06-02 16:46:47.601  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+2023-06-02 16:46:47.601  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+2023-06-02 16:46:47.601  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+2023-06-02 16:46:47.613  6071-6071  OpenGLRenderer          com.qrsec.app                        D  HWUI GL Pipeline
+2023-06-02 16:46:47.652  6071-6071  com.qrsec.app           com.qrsec.app                        E  Invalid ID 0x00000000.
+2023-06-02 16:46:47.745  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+2023-06-02 16:46:47.750  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2023-06-02 16:46:47.787  6071-6071  WebViewFactory          com.qrsec.app                        I  Loading com.android.chrome version 69.0.3497.100 (code 349710017)
+2023-06-02 16:46:47.803  6071-6071  com.qrsec.app           com.qrsec.app                        I  The ClassLoaderContext is a special shared library.
+2023-06-02 16:46:48.354  6071-6071  cr_LibraryLoader        com.qrsec.app                        I  Time to load native libraries: 35 ms (timestamps 2075-2110)
+2023-06-02 16:46:48.392  6071-6108  cr_VariationsUtils      com.qrsec.app                        E  Failed reading seed file "/data/user/0/com.qrsec.app/app_webview/variations_seed_new": /data/user/0/com.qrsec.app/app_webview/variations_seed_new (No such file or directory)
+2023-06-02 16:46:48.392  6071-6108  cr_VariationsUtils      com.qrsec.app                        E  Failed reading seed file "/data/user/0/com.qrsec.app/app_webview/variations_seed": /data/user/0/com.qrsec.app/app_webview/variations_seed (No such file or directory)
+2023-06-02 16:46:48.423  6071-6071  com.qrsec.app           com.qrsec.app                        E  Invalid ID 0x00000000.
+2023-06-02 16:46:48.443  6071-6071  com.qrsec.app           com.qrsec.app                        E  Invalid ID 0x00000000.
+2023-06-02 16:46:48.488  6071-6071  chromium                com.qrsec.app                        I  [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+2023-06-02 16:46:48.490  6071-6071  cr_LibraryLoader        com.qrsec.app                        I  Expected native library version number "69.0.3497.100", actual native library version number "69.0.3497.100"
+2023-06-02 16:46:48.517  6071-6109  cr_ChildProcLH          com.qrsec.app                        W  Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+2023-06-02 16:46:48.547  6071-6071  cr_BrowserStartup       com.qrsec.app                        I  Initializing chromium process, singleProcess=false
+2023-06-02 16:46:49.095  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker;-><init>(Landroid/content/Context;I)V (light greylist, reflection)
+2023-06-02 16:46:49.095  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker;->logEvent(Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;)V (light greylist, reflection)
+2023-06-02 16:46:49.096  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionStarted(I)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (light greylist, reflection)
+2023-06-02 16:46:49.096  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionModified(II)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (light greylist, reflection)
+2023-06-02 16:46:49.096  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionModified(IILandroid/view/textclassifier/TextClassification;)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (light greylist, reflection)
+2023-06-02 16:46:49.096  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionModified(IILandroid/view/textclassifier/TextSelection;)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (light greylist, reflection)
+2023-06-02 16:46:49.096  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionAction(III)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (light greylist, reflection)
+2023-06-02 16:46:49.096  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionAction(IIILandroid/view/textclassifier/TextClassification;)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (light greylist, reflection)
+2023-06-02 16:46:49.141  6071-6071  Capacitor               com.qrsec.app                        D  Starting BridgeActivity
+2023-06-02 16:46:49.201  6071-6071  Capacitor               com.qrsec.app                        D  Registering plugin instance: CapacitorCookies
+2023-06-02 16:46:49.208  6071-6071  Capacitor               com.qrsec.app                        D  Registering plugin instance: WebView
+2023-06-02 16:46:49.213  6071-6071  Capacitor               com.qrsec.app                        D  Registering plugin instance: CapacitorHttp
+2023-06-02 16:46:49.216  6071-6071  Capacitor               com.qrsec.app                        D  Registering plugin instance: App
+2023-06-02 16:46:49.221  6071-6071  Capacitor               com.qrsec.app                        D  Registering plugin instance: Haptics
+2023-06-02 16:46:49.226  6071-6071  Capacitor               com.qrsec.app                        D  Registering plugin instance: Keyboard
+2023-06-02 16:46:49.229  6071-6071  Capacitor               com.qrsec.app                        D  Registering plugin instance: StatusBar
+2023-06-02 16:46:49.364  6071-6071  Capacitor               com.qrsec.app                        W  Unable to read file at path public/plugins
+2023-06-02 16:46:49.372  6071-6071  Capacitor               com.qrsec.app                        D  Loading app at http://localhost
+2023-06-02 16:46:49.459  6071-6137  cr_media                com.qrsec.app                        W  Requires BLUETOOTH permission
+2023-06-02 16:46:49.512  6071-6071  Capacitor               com.qrsec.app                        D  App started
+2023-06-02 16:46:49.514  6071-6152  HostConnection          com.qrsec.app                        D  HostConnection::get() New Host Connection established 0xc8a85950, tid 6152
+2023-06-02 16:46:49.516  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        D  Firing change: true
+2023-06-02 16:46:49.517  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        V  Notifying listeners for event appStateChange
+2023-06-02 16:46:49.517  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        D  No listeners found for event appStateChange
+2023-06-02 16:46:49.518  6071-6071  Capacitor               com.qrsec.app                        D  App resumed
+2023-06-02 16:46:49.523  6071-6140  Capacitor               com.qrsec.app                        D  Handling local request: http://localhost/
+2023-06-02 16:46:49.654  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        V  Notifying listeners for event pause
+2023-06-02 16:46:49.654  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        D  No listeners found for event pause
+2023-06-02 16:46:49.657  6071-6071  Capacitor               com.qrsec.app                        D  App paused
+2023-06-02 16:46:49.665  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        D  Firing change: false
+2023-06-02 16:46:49.666  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        V  Notifying listeners for event appStateChange
+2023-06-02 16:46:49.666  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        D  No listeners found for event appStateChange
+2023-06-02 16:46:49.666  6071-6071  Capacitor               com.qrsec.app                        D  App stopped
+2023-06-02 16:46:49.676  6071-6071  Capacitor               com.qrsec.app                        D  Saving instance state!
+2023-06-02 16:46:49.812  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/view/WindowInsets;->CONSUMED:Landroid/view/WindowInsets; (light greylist, reflection)
+2023-06-02 16:46:49.816  6071-6152  HostConnection          com.qrsec.app                        D  HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+2023-06-02 16:46:49.828  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/View;->getViewRootImpl()Landroid/view/ViewRootImpl; (light greylist, reflection)
+2023-06-02 16:46:49.828  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/view/View$AttachInfo;->mVisibleInsets:Landroid/graphics/Rect; (light greylist, reflection)
+2023-06-02 16:46:49.829  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/view/ViewRootImpl;->mAttachInfo:Landroid/view/View$AttachInfo; (light greylist, reflection)
+2023-06-02 16:46:49.904  6071-6152  ConfigStore             com.qrsec.app                        I  android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2023-06-02 16:46:49.905  6071-6152  ConfigStore             com.qrsec.app                        I  android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2023-06-02 16:46:49.907  6071-6152  chromium                com.qrsec.app                        E  [ERROR:gl_surface_egl.cc(335)] eglChooseConfig failed with error EGL_SUCCESS
+2023-06-02 16:46:49.910  6071-6154  OpenGLRenderer          com.qrsec.app                        I  Initialized EGL, version 1.4
+2023-06-02 16:46:49.910  6071-6154  OpenGLRenderer          com.qrsec.app                        D  Swap behavior 1
+2023-06-02 16:46:49.911  6071-6154  HostConnection          com.qrsec.app                        D  HostConnection::get() New Host Connection established 0xc8a85b80, tid 6154
+2023-06-02 16:46:49.932  6071-6152  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:46:49.932  6071-6152  EGL_emulation           com.qrsec.app                        D  eglCreateContext: 0xe3c89860: maj 2 min 0 rcv 2
+2023-06-02 16:46:49.937  6071-6152  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xe3c89860: ver 2 0 (tinfo 0xc8a83fb0)
+2023-06-02 16:46:50.031  6071-6154  HostConnection          com.qrsec.app                        D  HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+2023-06-02 16:46:50.032  6071-6154  OpenGLRenderer          com.qrsec.app                        W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2023-06-02 16:46:50.032  6071-6154  OpenGLRenderer          com.qrsec.app                        D  Swap behavior 0
+2023-06-02 16:46:50.055  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:46:50.056  6071-6154  EGL_emulation           com.qrsec.app                        D  eglCreateContext: 0xc8a6f160: maj 2 min 0 rcv 2
+2023-06-02 16:46:50.061  6071-6154  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xc8a6f160: ver 2 0 (tinfo 0xc8aef190)
+2023-06-02 16:46:50.141  6071-6154  HostConnection          com.qrsec.app                        D  createUnique: call
+2023-06-02 16:46:50.142  6071-6154  HostConnection          com.qrsec.app                        D  HostConnection::get() New Host Connection established 0xc8a87020, tid 6154
+2023-06-02 16:46:50.155  6071-6152  VideoCapabilities       com.qrsec.app                        W  Unrecognized profile 4 for video/hevc
+2023-06-02 16:46:50.170  6071-6152  VideoCapabilities       com.qrsec.app                        I  Unsupported profile 4 for video/mp4v-es
+2023-06-02 16:46:50.180  6071-6152  cr_MediaCodecUtil       com.qrsec.app                        W  HW encoder for video/avc is not available on this device.
+2023-06-02 16:46:50.384  6071-6154  HostConnection          com.qrsec.app                        D  HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+2023-06-02 16:46:50.385  6071-6154  eglCodecCommon          com.qrsec.app                        E  GoldfishAddressSpaceHostMemoryAllocator: ioctl_ping failed for device_type=5, ret=-1
+2023-06-02 16:46:50.405  6071-6154  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xc8a6f160: ver 2 0 (tinfo 0xc8aef190)
+2023-06-02 16:46:50.471  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:46:50.472  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:46:50.473  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:46:50.496  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:46:50.525  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 7 0
+2023-06-02 16:46:50.552  6071-6154  OpenGLRenderer          com.qrsec.app                        I  Davey! duration=725ms; Flags=0, IntendedVsync=253581829800, Vsync=253665163130, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=253679691000, AnimationStart=253679802800, PerformTraversalsStart=253679894400, DrawStart=254149752600, SyncQueued=254162015400, SyncStart=254166568100, IssueDrawCommandsStart=254167197100, SwapBuffers=254286675400, FrameCompleted=254312265300, DequeueBufferDuration=590000, QueueBufferDuration=2779000, 
+2023-06-02 16:46:50.553  6071-6154  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xc8a6f160: ver 2 0 (tinfo 0xc8aef190)
+2023-06-02 16:46:50.577  6071-6071  Capacitor/Console       com.qrsec.app                        E  File:  - Line 1 - Msg: Uncaught TypeError: Cannot read property 'triggerEvent' of undefined
+2023-06-02 16:46:50.616  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (light greylist, reflection)
+2023-06-02 16:46:50.617  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (light greylist, reflection)
+2023-06-02 16:46:50.617  6071-6071  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/os/Trace;->traceCounter(JLjava/lang/String;I)V (light greylist, reflection)
+2023-06-02 16:46:50.635  6071-6154  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xc8a6f160: ver 2 0 (tinfo 0xc8aef190)
+2023-06-02 16:46:50.703  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:46:50.703  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:46:50.703  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:46:50.704  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:46:50.715  6071-6154  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xc8a6f160: ver 2 0 (tinfo 0xc8aef190)
+2023-06-02 16:46:50.728  6071-6169  cr_CrashFileManager     com.qrsec.app                        W  /data/user/0/com.qrsec.app/cache/WebView/Crash Reports does not exist or is not a directory
+2023-06-02 16:46:50.774  6071-6152  chromium                com.qrsec.app                        E  [ERROR:gl_surface_egl.cc(335)] eglChooseConfig failed with error EGL_SUCCESS
+2023-06-02 16:46:50.783  6071-6152  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:46:50.784  6071-6152  EGL_emulation           com.qrsec.app                        D  eglCreateContext: 0xe3cc0440: maj 2 min 0 rcv 2
+2023-06-02 16:46:50.784  6071-6152  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xe3cc0440: ver 2 0 (tinfo 0xc8a83fb0)
+2023-06-02 16:46:50.793  6071-6152  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:46:50.814  6071-6152  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 2 (2) 0 0
+2023-06-02 16:46:50.939  6071-6152  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:46:50.950  6071-6140  Capacitor               com.qrsec.app                        D  Handling local request: http://localhost/runtime.06daef4725b5cd68.js
+2023-06-02 16:46:50.956  6071-6130  Capacitor               com.qrsec.app                        D  Handling local request: http://localhost/polyfills.fc6fad8ce607b49d.js
+2023-06-02 16:46:50.958  6071-6144  Capacitor               com.qrsec.app                        D  Handling local request: http://localhost/main.9371eb95dd118370.js
+2023-06-02 16:46:51.079  6071-6140  Capacitor               com.qrsec.app                        D  Handling local request: http://localhost/styles.bac947a5496135b1.css
+2023-06-02 16:46:52.588  6071-6071  Capacitor/Console       com.qrsec.app                        E  File: http://localhost/ - Line 633 - Msg: ReferenceError: globalThis is not defined
+2023-06-02 16:46:52.593  6071-6171  Capacitor               com.qrsec.app                        E  JavaScript Error: {"type":"js.error","error":{"message":"Uncaught ReferenceError: globalThis is not defined","url":"http://localhost/main.9371eb95dd118370.js","line":1,"col":554874,"errorObject":"{}"}}
+2023-06-02 16:46:52.596  6071-6071  Capacitor/Console       com.qrsec.app                        E  File: http://localhost/main.9371eb95dd118370.js - Line 1 - Msg: Uncaught ReferenceError: globalThis is not defined
+2023-06-02 16:46:52.618  6071-6140  Capacitor               com.qrsec.app                        D  Handling local request: http://localhost/assets/icon/favicon.png
+2023-06-02 16:47:08.787  6071-6071  Capacitor               com.qrsec.app                        D  App restarted
+2023-06-02 16:47:08.821  6071-6071  Capacitor               com.qrsec.app                        D  App started
+2023-06-02 16:47:08.839  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        D  Firing change: true
+2023-06-02 16:47:08.839  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        V  Notifying listeners for event appStateChange
+2023-06-02 16:47:08.839  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        D  No listeners found for event appStateChange
+2023-06-02 16:47:08.839  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        V  Notifying listeners for event resume
+2023-06-02 16:47:08.839  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        D  No listeners found for event resume
+2023-06-02 16:47:08.840  6071-6071  Capacitor               com.qrsec.app                        D  App resumed
+2023-06-02 16:47:08.973  6071-6154  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xc8a6f160: ver 2 0 (tinfo 0xc8aef190)
+2023-06-02 16:47:09.075  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:47:09.075  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:47:09.076  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:47:09.115  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:47:09.180  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:47:09.271  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:47:09.272  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:47:09.272  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:47:09.276  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:47:09.276  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:47:09.415  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:47:09.416  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:47:09.416  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:47:09.418  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:47:09.418  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:51:50.763  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        V  Notifying listeners for event pause
+2023-06-02 16:51:50.763  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        D  No listeners found for event pause
+2023-06-02 16:51:50.767  6071-6071  Capacitor               com.qrsec.app                        D  App paused
+2023-06-02 16:51:50.871  6071-6154  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xc8a6f160: ver 2 0 (tinfo 0xc8aef190)
+2023-06-02 16:51:50.876  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        D  Firing change: false
+2023-06-02 16:51:50.877  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        V  Notifying listeners for event appStateChange
+2023-06-02 16:51:50.877  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        D  No listeners found for event appStateChange
+2023-06-02 16:51:50.877  6071-6071  Capacitor               com.qrsec.app                        D  App stopped
+2023-06-02 16:51:50.879  6071-6071  Capacitor               com.qrsec.app                        D  Saving instance state!
+2023-06-02 16:51:50.969  6071-6152  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 2 (2) 0 0
+2023-06-02 16:51:58.051  6071-6071  Capacitor               com.qrsec.app                        D  App restarted
+2023-06-02 16:51:58.053  6071-6071  Capacitor               com.qrsec.app                        D  App started
+2023-06-02 16:51:58.056  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        D  Firing change: true
+2023-06-02 16:51:58.056  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        V  Notifying listeners for event appStateChange
+2023-06-02 16:51:58.056  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        D  No listeners found for event appStateChange
+2023-06-02 16:51:58.056  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        V  Notifying listeners for event resume
+2023-06-02 16:51:58.056  6071-6071  Capacitor/AppPlugin     com.qrsec.app                        D  No listeners found for event resume
+2023-06-02 16:51:58.059  6071-6071  Capacitor               com.qrsec.app                        D  App resumed
+2023-06-02 16:51:58.473  6071-6154  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xc8a6f160: ver 2 0 (tinfo 0xc8aef190)
+2023-06-02 16:51:58.570  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:51:58.570  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:51:58.571  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:51:58.574  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:51:58.574  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:51:58.721  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:51:58.722  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:51:58.722  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:51:58.724  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:51:58.725  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:51:59.732  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:51:59.733  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:51:59.733  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:51:59.735  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:51:59.735  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:51:59.802  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:51:59.802  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:51:59.802  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:51:59.804  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:51:59.804  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:51:59.869  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:51:59.869  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:51:59.869  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:51:59.871  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:51:59.871  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:51:59.938  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:51:59.938  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:51:59.938  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:51:59.941  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:51:59.942  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:52:00.019  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:52:00.019  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:52:00.019  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:52:00.021  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:52:00.021  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:52:00.124  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:52:00.124  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:52:00.124  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:52:00.127  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:52:00.127  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:52:00.201  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:52:00.201  6071-6154  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:52:00.201  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:52:00.203  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:52:00.203  6071-6154  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+---------------------------- PROCESS STARTED (6071) for package com.qrsec.app ----------------------------
+---------------------------- PROCESS ENDED (6071) for package com.qrsec.app ----------------------------
+---------------------------- PROCESS STARTED (7065) for package com.qrsec.app ----------------------------
+2023-06-02 16:57:36.653  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
+2023-06-02 16:57:36.653  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
+2023-06-02 16:57:36.871  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+2023-06-02 16:57:36.871  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+2023-06-02 16:57:36.871  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+2023-06-02 16:57:36.871  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+2023-06-02 16:57:36.879  7065-7065  OpenGLRenderer          com.qrsec.app                        D  HWUI GL Pipeline
+2023-06-02 16:57:36.901  7065-7065  com.qrsec.app           com.qrsec.app                        E  Invalid ID 0x00000000.
+2023-06-02 16:57:36.969  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+2023-06-02 16:57:36.971  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2023-06-02 16:57:37.009  7065-7065  WebViewFactory          com.qrsec.app                        I  Loading com.android.chrome version 69.0.3497.100 (code 349710017)
+2023-06-02 16:57:37.022  7065-7065  com.qrsec.app           com.qrsec.app                        I  The ClassLoaderContext is a special shared library.
+2023-06-02 16:57:37.073  7065-7065  cr_LibraryLoader        com.qrsec.app                        I  Time to load native libraries: 15 ms (timestamps 817-832)
+2023-06-02 16:57:37.096  7065-7065  com.qrsec.app           com.qrsec.app                        E  Invalid ID 0x00000000.
+2023-06-02 16:57:37.096  7065-7065  com.qrsec.app           com.qrsec.app                        E  Invalid ID 0x00000000.
+2023-06-02 16:57:37.105  7065-7093  cr_VariationsUtils      com.qrsec.app                        E  Failed reading seed file "/data/user/0/com.qrsec.app/app_webview/variations_seed": /data/user/0/com.qrsec.app/app_webview/variations_seed (No such file or directory)
+2023-06-02 16:57:37.108  7065-7065  chromium                com.qrsec.app                        I  [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+2023-06-02 16:57:37.109  7065-7065  cr_LibraryLoader        com.qrsec.app                        I  Expected native library version number "69.0.3497.100", actual native library version number "69.0.3497.100"
+2023-06-02 16:57:37.122  7065-7094  cr_ChildProcLH          com.qrsec.app                        W  Create a new ChildConnectionAllocator with package name = com.android.chrome, sandboxed = true
+2023-06-02 16:57:37.137  7065-7065  cr_BrowserStartup       com.qrsec.app                        I  Initializing chromium process, singleProcess=false
+2023-06-02 16:57:37.392  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker;-><init>(Landroid/content/Context;I)V (light greylist, reflection)
+2023-06-02 16:57:37.393  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker;->logEvent(Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;)V (light greylist, reflection)
+2023-06-02 16:57:37.393  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionStarted(I)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (light greylist, reflection)
+2023-06-02 16:57:37.393  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionModified(II)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (light greylist, reflection)
+2023-06-02 16:57:37.393  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionModified(IILandroid/view/textclassifier/TextClassification;)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (light greylist, reflection)
+2023-06-02 16:57:37.393  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionModified(IILandroid/view/textclassifier/TextSelection;)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (light greylist, reflection)
+2023-06-02 16:57:37.393  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionAction(III)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (light greylist, reflection)
+2023-06-02 16:57:37.393  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent;->selectionAction(IIILandroid/view/textclassifier/TextClassification;)Landroid/view/textclassifier/logging/SmartSelectionEventTracker$SelectionEvent; (light greylist, reflection)
+2023-06-02 16:57:37.423  7065-7065  Capacitor               com.qrsec.app                        D  Starting BridgeActivity
+2023-06-02 16:57:37.495  7065-7065  Capacitor               com.qrsec.app                        D  Registering plugin instance: CapacitorCookies
+2023-06-02 16:57:37.507  7065-7065  Capacitor               com.qrsec.app                        D  Registering plugin instance: WebView
+2023-06-02 16:57:37.516  7065-7065  Capacitor               com.qrsec.app                        D  Registering plugin instance: CapacitorHttp
+2023-06-02 16:57:37.524  7065-7065  Capacitor               com.qrsec.app                        D  Registering plugin instance: App
+2023-06-02 16:57:37.532  7065-7065  Capacitor               com.qrsec.app                        D  Registering plugin instance: Haptics
+2023-06-02 16:57:37.539  7065-7065  Capacitor               com.qrsec.app                        D  Registering plugin instance: Keyboard
+2023-06-02 16:57:37.549  7065-7065  Capacitor               com.qrsec.app                        D  Registering plugin instance: StatusBar
+2023-06-02 16:57:37.605  7065-7065  Capacitor               com.qrsec.app                        W  Unable to read file at path public/plugins
+2023-06-02 16:57:37.611  7065-7065  Capacitor               com.qrsec.app                        D  Loading app at http://localhost
+2023-06-02 16:57:37.661  7065-7118  cr_media                com.qrsec.app                        W  Requires BLUETOOTH permission
+2023-06-02 16:57:37.684  7065-7065  Capacitor               com.qrsec.app                        D  App started
+2023-06-02 16:57:37.699  7065-7123  Capacitor               com.qrsec.app                        D  Handling local request: http://localhost/
+2023-06-02 16:57:37.712  7065-7137  HostConnection          com.qrsec.app                        D  HostConnection::get() New Host Connection established 0xddaaca50, tid 7137
+2023-06-02 16:57:37.716  7065-7065  Capacitor/AppPlugin     com.qrsec.app                        D  Firing change: true
+2023-06-02 16:57:37.719  7065-7065  Capacitor/AppPlugin     com.qrsec.app                        V  Notifying listeners for event appStateChange
+2023-06-02 16:57:37.719  7065-7065  Capacitor/AppPlugin     com.qrsec.app                        D  No listeners found for event appStateChange
+2023-06-02 16:57:37.720  7065-7065  Capacitor               com.qrsec.app                        D  App resumed
+2023-06-02 16:57:37.872  7065-7137  HostConnection          com.qrsec.app                        D  HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+2023-06-02 16:57:37.879  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/view/WindowInsets;->CONSUMED:Landroid/view/WindowInsets; (light greylist, reflection)
+2023-06-02 16:57:37.888  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/view/View;->getViewRootImpl()Landroid/view/ViewRootImpl; (light greylist, reflection)
+2023-06-02 16:57:37.888  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/view/View$AttachInfo;->mVisibleInsets:Landroid/graphics/Rect; (light greylist, reflection)
+2023-06-02 16:57:37.889  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden field Landroid/view/ViewRootImpl;->mAttachInfo:Landroid/view/View$AttachInfo; (light greylist, reflection)
+2023-06-02 16:57:37.889  7065-7076  com.qrsec.app           com.qrsec.app                        I  Background concurrent copying GC freed 24005(4MB) AllocSpace objects, 29(1640KB) LOS objects, 50% free, 2MB/4MB, paused 2.887ms total 115.321ms
+2023-06-02 16:57:37.890  7065-7137  ConfigStore             com.qrsec.app                        I  android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2023-06-02 16:57:37.891  7065-7137  ConfigStore             com.qrsec.app                        I  android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2023-06-02 16:57:37.894  7065-7137  chromium                com.qrsec.app                        E  [ERROR:gl_surface_egl.cc(335)] eglChooseConfig failed with error EGL_SUCCESS
+2023-06-02 16:57:37.919  7065-7137  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:37.919  7065-7137  EGL_emulation           com.qrsec.app                        D  eglCreateContext: 0xdda85e40: maj 2 min 0 rcv 2
+2023-06-02 16:57:37.919  7065-7137  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xdda85e40: ver 2 0 (tinfo 0xdda83ad0)
+2023-06-02 16:57:37.926  7065-7139  OpenGLRenderer          com.qrsec.app                        I  Initialized EGL, version 1.4
+2023-06-02 16:57:37.926  7065-7139  OpenGLRenderer          com.qrsec.app                        D  Swap behavior 1
+2023-06-02 16:57:37.927  7065-7139  HostConnection          com.qrsec.app                        D  HostConnection::get() New Host Connection established 0xddaacc80, tid 7139
+2023-06-02 16:57:37.964  7065-7139  HostConnection          com.qrsec.app                        D  HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+2023-06-02 16:57:37.965  7065-7139  OpenGLRenderer          com.qrsec.app                        W  Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2023-06-02 16:57:37.965  7065-7139  OpenGLRenderer          com.qrsec.app                        D  Swap behavior 0
+2023-06-02 16:57:37.984  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:37.984  7065-7139  EGL_emulation           com.qrsec.app                        D  eglCreateContext: 0xdda85d20: maj 2 min 0 rcv 2
+2023-06-02 16:57:37.985  7065-7139  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xdda85d20: ver 2 0 (tinfo 0xdda83c60)
+2023-06-02 16:57:38.004  7065-7139  HostConnection          com.qrsec.app                        D  createUnique: call
+2023-06-02 16:57:38.006  7065-7139  HostConnection          com.qrsec.app                        D  HostConnection::get() New Host Connection established 0xddaad0e0, tid 7139
+2023-06-02 16:57:38.036  7065-7139  HostConnection          com.qrsec.app                        D  HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2 
+2023-06-02 16:57:38.036  7065-7139  eglCodecCommon          com.qrsec.app                        E  GoldfishAddressSpaceHostMemoryAllocator: ioctl_ping failed for device_type=5, ret=-1
+2023-06-02 16:57:38.046  7065-7139  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xdda85d20: ver 2 0 (tinfo 0xdda83c60)
+2023-06-02 16:57:38.049  7065-7137  VideoCapabilities       com.qrsec.app                        W  Unrecognized profile 4 for video/hevc
+2023-06-02 16:57:38.073  7065-7137  VideoCapabilities       com.qrsec.app                        I  Unsupported profile 4 for video/mp4v-es
+2023-06-02 16:57:38.089  7065-7137  cr_MediaCodecUtil       com.qrsec.app                        W  HW encoder for video/avc is not available on this device.
+2023-06-02 16:57:38.105  7065-7137  chromium                com.qrsec.app                        E  [ERROR:gl_surface_egl.cc(335)] eglChooseConfig failed with error EGL_SUCCESS
+2023-06-02 16:57:38.118  7065-7137  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:38.119  7065-7137  EGL_emulation           com.qrsec.app                        D  eglCreateContext: 0xdda86380: maj 2 min 0 rcv 2
+2023-06-02 16:57:38.119  7065-7137  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xdda86380: ver 2 0 (tinfo 0xdda83ad0)
+2023-06-02 16:57:38.143  7065-7137  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:57:38.143  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:38.143  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:38.143  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:38.157  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:57:38.169  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 7 0
+2023-06-02 16:57:38.193  7065-7137  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 2 (2) 0 0
+2023-06-02 16:57:38.235  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (light greylist, reflection)
+2023-06-02 16:57:38.236  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (light greylist, reflection)
+2023-06-02 16:57:38.236  7065-7151  cr_CrashFileManager     com.qrsec.app                        W  /data/user/0/com.qrsec.app/cache/WebView/Crash Reports does not exist or is not a directory
+2023-06-02 16:57:38.236  7065-7065  com.qrsec.app           com.qrsec.app                        W  Accessing hidden method Landroid/os/Trace;->traceCounter(JLjava/lang/String;I)V (light greylist, reflection)
+2023-06-02 16:57:38.252  7065-7137  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:57:38.326  7065-7123  Capacitor               com.qrsec.app                        D  Handling local request: http://localhost/polyfills.fc6fad8ce607b49d.js
+2023-06-02 16:57:38.328  7065-7113  Capacitor               com.qrsec.app                        D  Handling local request: http://localhost/runtime.06daef4725b5cd68.js
+2023-06-02 16:57:38.339  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:38.339  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:38.339  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:38.341  7065-7124  Capacitor               com.qrsec.app                        D  Handling local request: http://localhost/main.9371eb95dd118370.js
+2023-06-02 16:57:38.343  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:38.413  7065-7113  Capacitor               com.qrsec.app                        D  Handling local request: http://localhost/styles.bac947a5496135b1.css
+2023-06-02 16:57:38.442  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:38.442  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:38.442  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:38.444  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:38.552  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:38.552  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:38.552  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:38.556  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:38.624  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:38.624  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:38.624  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:38.626  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:57:38.637  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:57:38.696  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:38.696  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:38.696  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:38.698  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:57:38.699  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:57:38.902  7065-7065  Capacitor/Console       com.qrsec.app                        E  File: http://localhost/ - Line 633 - Msg: ReferenceError: globalThis is not defined
+2023-06-02 16:57:38.906  7065-7154  Capacitor               com.qrsec.app                        E  JavaScript Error: {"type":"js.error","error":{"message":"Uncaught ReferenceError: globalThis is not defined","url":"http://localhost/main.9371eb95dd118370.js","line":1,"col":554874,"errorObject":"{}"}}
+2023-06-02 16:57:38.908  7065-7065  Capacitor/Console       com.qrsec.app                        E  File: http://localhost/main.9371eb95dd118370.js - Line 1 - Msg: Uncaught ReferenceError: globalThis is not defined
+2023-06-02 16:57:38.919  7065-7123  Capacitor               com.qrsec.app                        D  Handling local request: http://localhost/assets/icon/favicon.png
+2023-06-02 16:57:39.480  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:39.481  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:39.481  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:39.483  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:57:39.483  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:57:39.539  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:39.539  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:39.540  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:39.543  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:57:39.544  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:57:39.608  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:39.608  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:39.609  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:39.611  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:57:39.611  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:57:39.676  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:39.676  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:39.676  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:39.679  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:57:39.679  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:57:39.743  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:39.743  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:39.743  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:39.745  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:57:39.745  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:57:39.805  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:39.805  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:39.805  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:39.807  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:57:39.807  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 16:57:39.866  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:39.867  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 16:57:39.867  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 16:57:39.870  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 16:57:39.870  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 17:02:50.805  7065-7065  Capacitor/AppPlugin     com.qrsec.app                        V  Notifying listeners for event pause
+2023-06-02 17:02:50.805  7065-7065  Capacitor/AppPlugin     com.qrsec.app                        D  No listeners found for event pause
+2023-06-02 17:02:50.806  7065-7065  Capacitor               com.qrsec.app                        D  App paused
+2023-06-02 17:02:50.851  7065-7139  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xdda85d20: ver 2 0 (tinfo 0xdda83c60)
+2023-06-02 17:02:50.858  7065-7065  Capacitor/AppPlugin     com.qrsec.app                        D  Firing change: false
+2023-06-02 17:02:50.869  7065-7065  Capacitor/AppPlugin     com.qrsec.app                        V  Notifying listeners for event appStateChange
+2023-06-02 17:02:50.869  7065-7065  Capacitor/AppPlugin     com.qrsec.app                        D  No listeners found for event appStateChange
+2023-06-02 17:02:50.869  7065-7065  Capacitor               com.qrsec.app                        D  App stopped
+2023-06-02 17:02:50.873  7065-7065  Capacitor               com.qrsec.app                        D  Saving instance state!
+2023-06-02 17:02:50.953  7065-7137  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 2 (2) 0 0
+2023-06-02 17:03:11.730  7065-7065  Capacitor               com.qrsec.app                        D  App restarted
+2023-06-02 17:03:11.731  7065-7065  Capacitor               com.qrsec.app                        D  App started
+2023-06-02 17:03:11.734  7065-7065  Capacitor/AppPlugin     com.qrsec.app                        D  Firing change: true
+2023-06-02 17:03:11.734  7065-7065  Capacitor/AppPlugin     com.qrsec.app                        V  Notifying listeners for event appStateChange
+2023-06-02 17:03:11.734  7065-7065  Capacitor/AppPlugin     com.qrsec.app                        D  No listeners found for event appStateChange
+2023-06-02 17:03:11.735  7065-7065  Capacitor/AppPlugin     com.qrsec.app                        V  Notifying listeners for event resume
+2023-06-02 17:03:11.735  7065-7065  Capacitor/AppPlugin     com.qrsec.app                        D  No listeners found for event resume
+2023-06-02 17:03:11.735  7065-7065  Capacitor               com.qrsec.app                        D  App resumed
+2023-06-02 17:03:11.795  7065-7139  EGL_emulation           com.qrsec.app                        D  eglMakeCurrent: 0xdda85d20: ver 2 0 (tinfo 0xdda83c60)
+2023-06-02 17:03:11.877  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 17:03:11.877  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 17:03:11.878  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 17:03:11.882  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 17:03:11.882  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 17:03:13.419  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 17:03:13.419  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 17:03:13.420  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 17:03:13.424  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 17:03:13.425  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 17:03:13.501  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 17:03:13.501  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 17:03:13.501  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 17:03:13.505  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 17:03:13.505  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 17:03:13.576  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 17:03:13.576  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 17:03:13.577  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 17:03:13.580  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 17:03:13.581  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 17:03:13.650  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 17:03:13.650  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 17:03:13.650  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 17:03:13.653  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 17:03:13.653  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 17:03:13.727  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 17:03:13.727  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 17:03:13.727  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 17:03:13.729  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 17:03:13.730  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
+2023-06-02 17:03:13.795  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 17:03:13.795  7065-7139  eglCodecCommon          com.qrsec.app                        E  glUtilsParamSize: unknow param 0x000085b5
+2023-06-02 17:03:13.795  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 0 0
+2023-06-02 17:03:13.798  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 1 (1) 0 0
+2023-06-02 17:03:13.798  7065-7139  eglCodecCommon          com.qrsec.app                        D  setVertexArrayObject: set vao to 0 (0) 5 0
