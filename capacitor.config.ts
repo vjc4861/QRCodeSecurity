@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.qrsec.app',
-  appName: 'QR-Code-Sec',
+  appId: 'io.ionic.starter',
+  appName: 'qr-code-sec',
   webDir: 'www',
   bundledWebRuntime: false
 };
